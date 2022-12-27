@@ -27,6 +27,9 @@ public class CollectionPage
 	@FindBy(xpath = "//button[@name='checkout']")
 	private WebElement checkOut;
 	 
+	
+	// umair
+	
 	public CollectionPage(WebDriver driver)   
 	{
 		this.driver = driver;
