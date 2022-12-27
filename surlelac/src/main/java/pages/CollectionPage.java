@@ -28,7 +28,7 @@ public class CollectionPage
 	private WebElement checkOut;
 	 
 	
-	// umair
+	// umair aafaque
 	
 	public CollectionPage(WebDriver driver)   
 	{
