@@ -18,6 +18,8 @@ public class TestCollectionPage extends BaseTest
 	
 		CollectionPage cp = new CollectionPage(driver);  
 		Form_Data fd = new Form_Data(driver);
+			boolean checkclickclose= cp.clickFirstPopUp();
+			Assert.assertEquals(checkclickclose, true,"failed to click on popup");
 			boolean checkclickFirstProduct = cp.clickFirstProduct();
 			Assert.assertEquals(checkclickFirstProduct, true,"failed to click on first product");
 			boolean checkClickAddtoCart = cp.clickaddToCart(); 

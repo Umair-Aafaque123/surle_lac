@@ -15,6 +15,9 @@ public class CollectionPage
 {
 	public WebDriver driver = null;
 	
+	@FindBy (xpath = "//button[@class='needsclick klaviyo-close-form kl-private-reset-css-Xuajs1']")
+	private WebElement popupclick;
+	
 	@FindBy(xpath = "//a[@href='/products/101-t-shirt']")
 	private WebElement firstProduct;
 	
@@ -37,6 +40,22 @@ public class CollectionPage
 		
 		
 	}
+	
+	public boolean clickFirstPopUp() 
+	{
+		boolean result = false;
+		try 
+		{
+			popupclick.click();
+			result = true;
+		}
+		catch(Exception e) 
+		{
+			System.out.println(e);
+		}
+		return result;
+	}
+	
 	public boolean clickFirstProduct() throws InterruptedException 
 	{
 		boolean result = false;
