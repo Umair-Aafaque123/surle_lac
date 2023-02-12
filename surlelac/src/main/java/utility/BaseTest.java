@@ -40,20 +40,21 @@ public class BaseTest
 				driver = new ChromeDriver();
 				System.out.println("Testing on Chrome");
 				
-			}else if(browserName.equals("Edge"))  
-			{
-				//WebDriverManager.chromedriver().setup();
-				driver = new EdgeDriver();
-				System.out.println("Testing on MicrosoftEdge");
-				
 			}
-			else if(browserName.equals("Safari"))  
-			{
-				//WebDriverManager.chromedriver().setup();
-				driver = new SafariDriver();
-				System.out.println("Testing on Safari");
-				
-			}
+//			else if(browserName.equals("Edge"))  
+//			{
+//				//WebDriverManager.chromedriver().setup();
+//				driver = new EdgeDriver();
+//				System.out.println("Testing on MicrosoftEdge");
+//				
+//			}
+//			else if(browserName.equals("Safari"))  
+//			{
+//				//WebDriverManager.chromedriver().setup();
+//				driver = new SafariDriver();
+//				System.out.println("Testing on Safari");
+//				
+//			}
 			else 
 			{
 				System.out.println("No browser configured");

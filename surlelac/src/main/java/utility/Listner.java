@@ -48,6 +48,7 @@ public class Listner extends ExtentReportClass implements ITestListener
 //                Date date = new Date();  
                 
                 String ssPath = "./screenshot/"+formatter.format(timestamp)+"_Failed.png";
+                System.out.println(ssPath);
                 File DestFile=new File(ssPath);
                 System.out.println("ssPath :-"+ssPath);
                 //Copy file at destination

@@ -12,38 +12,9 @@
           <include name="testCollectionPage"/>
           <include name="display1"/>
           <include name="display2"/>
-          <include name="close"/>
           <include name="setBrowser"/>
         </methods>
       </class> <!-- testcase.TestCollectionPage -->
     </classes>
   </test> <!-- Test(failed) -->
-  <test thread-count="5" name="Edge(failed)">
-    <parameter name="browserName" value="Edge"/>
-    <classes>
-      <class name="testcase.TestCollectionPage">
-        <methods>
-          <include name="testCollectionPage"/>
-          <include name="display1"/>
-          <include name="display2"/>
-          <include name="close"/>
-          <include name="setBrowser"/>
-        </methods>
-      </class> <!-- testcase.TestCollectionPage -->
-    </classes>
-  </test> <!-- Edge(failed) -->
-  <test thread-count="5" name="Safari(failed)">
-    <parameter name="browserName" value="Safari"/>
-    <classes>
-      <class name="testcase.TestCollectionPage">
-        <methods>
-          <include name="testCollectionPage"/>
-          <include name="display1"/>
-          <include name="display2"/>
-          <include name="close"/>
-          <include name="setBrowser"/>
-        </methods>
-      </class> <!-- testcase.TestCollectionPage -->
-    </classes>
-  </test> <!-- Safari(failed) -->
 </suite> <!-- Failed suite [Suite] -->
