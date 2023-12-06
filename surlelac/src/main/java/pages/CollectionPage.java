@@ -31,7 +31,7 @@ public class CollectionPage
 	private WebElement checkOut;
 	 
 	
-	// umair aafaque shamim akhtar waris pura
+	// umair aafaque shamim akhtar waris pura kamptee
 	
 	public CollectionPage(WebDriver driver)   
 	{
