@@ -9,8 +9,8 @@
     <classes>
       <class name="testcase.TestCollectionPage">
         <methods>
-          <include name="testCollectionPage"/>
           <include name="display1"/>
+          <include name="testCollectionPage"/>
           <include name="display2"/>
           <include name="close"/>
           <include name="setBrowser"/>
